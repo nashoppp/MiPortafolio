@@ -17,6 +17,17 @@ export const SeccionExperiencia = () => {
                     <Text type="secondary">Febrero 2026 - Presente</Text>
                 </>
             ),
+        },
+        {
+            color: 'gray',
+            content: (
+                <>
+                    <Title level={5} style={{ margin: 0 }}>Hotel the singular</Title>
+                    <Text strong>Trabajador Prácticante</Text>
+                    <br />
+                    <Text type="secondary">Noviembre 2024 - Enero 2025</Text>
+                </>
+            ),
         }
     ];
 

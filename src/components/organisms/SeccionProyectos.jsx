@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Typography } from 'antd';
-import { AppstoreOutlined, ShoppingCartOutlined, FormatPainterOutlined } from '@ant-design/icons';
+import {AppstoreOutlined, ShoppingCartOutlined, FormatPainterOutlined, RubyOutlined} from '@ant-design/icons';
 import { TarjetaProyecto } from '../molecules/TarjetaProyecto';
 import { TituloSeccion } from '../atoms/TituloSeccion';
 
@@ -22,6 +22,13 @@ export const SeccionProyectos = () => {
             descripcion: "Prototipo de página web interactiva para centro de estética, construida con React, con diseño responsive y paleta de colores personalizada.",
             linkGithub: "https://github.com/IgnaMunoZo/RaicesSpa.git",
             previewIcon: <FormatPainterOutlined />
+        },
+        {
+            id: 3,
+            titulo: "DesireeStore - Sistema de Gestion de Inventario y Ventas",
+            descripcion: "Sistema administrativo para la gestion de catalogo, inventario, ventas, abastecimiento, promociones, logistica, fidelizacion, resenas y postventa de una tienda de ropa. ",
+            linkGithub: "https://github.com/milloesagustin/pena-munoz-010D.git",
+            previewIcon: <RubyOutlined />
         }
     ];
 
