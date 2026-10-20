@@ -57,7 +57,7 @@ export const SeccionExperiencia = () => {
     ];
 
     return (
-        <Row gutter={24} style={{ marginBottom: '30px' }}>
+        <Row className="animacion-entrada" gutter={24} style={{ marginBottom: '30px' }}>
             <Col xs={24} md={12}>
                 <TarjetaTimeline
                     icono={<SolutionOutlined />}

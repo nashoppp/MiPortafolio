@@ -37,7 +37,7 @@ export const SeccionProyectos = () => {
             <Title level={2} style={{ marginBottom: '24px' }}>
                 <TituloSeccion icono={<AppstoreOutlined />} texto="Desarrollos y Proyectos" />
             </Title>
-            <Row gutter={[24, 24]}>
+            <Row className="animacion-entrada" gutter={[24, 24]}>
                 {proyectos.map((proyecto) => (
                     <Col xs={24} sm={12} md={8} key={proyecto.id}>
                         <TarjetaProyecto

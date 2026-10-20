@@ -2,11 +2,15 @@ import React from 'react';
 import { Card, Avatar, Typography, Row, Col } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 
+
 const { Title, Paragraph } = Typography;
 
 export const SeccionPersonal = () => {
     return (
-        <Card variant="borderless" style={{ marginBottom: '30px', borderRadius: '12px', backgroundColor: '#f0f2f5' }}>
+        <Card
+            className="animacion-entrada"
+            variant="borderless"
+            style={{ marginBottom: '30px', borderRadius: '12px', backgroundColor: '#f0f2f5' }}>
             <Row align="middle" gutter={24}>
                 {/* Avatar */}
                 <Col xs={24} md={6} style={{ textAlign: 'center' }}>
